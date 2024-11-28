@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 100%;
+    font-size: 0;
+}
+.div1,.div2{
+    display: inline;
+}
+.nav .col1 , 
+.nav .col2{
+    display: inline-block;
+    width: calc(100% / 8);
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    transition: .3s;
+    font-size: 32px;
+    font-weight: bold;
+}
+.nav .col1{
+    background-color:white;
+    color: black;
+}
+.nav .col2{
+    background-color: black;
+    color: white;
+}
+.nav .div1:hover .col1, 
+.nav .div1:hover .col2 {
+    background-color: black;
+    color: white;
+}
+
+.nav .div2:hover .col1, 
+.nav .div2:hover .col2 {
+    background-color: white;
+    color: black;
+}
+
